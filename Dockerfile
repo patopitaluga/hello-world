@@ -10,4 +10,4 @@ COPY server.ts .
 
 EXPOSE 3000
 
-CMD ["node", "server.ts"]
+CMD ["node", "server.js"]
