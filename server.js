@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
     client.end();
   });
   
-  res.send('Hello World ' + process.env.DATABASE_URL);
+  res.send('Hello World');
 });
 
 app.listen((process.env.PORT || 3000), () => {
